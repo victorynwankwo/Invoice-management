@@ -1,0 +1,50 @@
+:root {
+  --invoice-purple: #7c5dfa;
+  --invoice-light-purple: #9277ff;
+  --invoice-dark: #1e2139;
+  --invoice-gray: #888eb0;
+  --invoice-bg: #f8f8fb;
+  --invoice-input-border: #dfe3fa;
+}
+.InvoiceForm-overlay {
+  position: fixed;
+  top: 0;
+  left: 90px; 
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 40; 
+  animation: fadeIn 0.3s ease;
+}
+
+.InvoiceForm-container {
+  position: fixed;
+  top: 0;
+  left: 90px; 
+  width: 100%;
+  max-width: 640px;
+  height: 100vh;
+  background-color: #ffffff;
+  z-index: 50; /* Lower than sidebar (100) */
+  border-radius: 0 20px 20px 0;
+  overflow-y: auto;
+  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+.invoice-header{
+    padding: 30px 30px ;
+    
+}
+.invoice-body-wrapper{
+    width: 504px;
+    height: 208px;
+    background-color: green;
+}
+
+
+
+
+
+
+

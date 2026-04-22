@@ -1,21 +1,21 @@
-/* Reset */
 
 
-/* Layout */
 .app {
   display: flex;
   height: 100vh;
 }
-
-/* Sidebar */
 .sidebar {
+  position: fixed; 
+  top: 0;
+  left: 0;
   width: 90px;
+  height: 100vh;
   background: #373b53;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  z-index: 50; 
   border-radius: 0 20px 20px 0;
 }
 
@@ -64,6 +64,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 80px;
+  margin-left: 3rem;
 }
 
 /* Left side */
